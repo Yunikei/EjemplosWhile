@@ -5,14 +5,22 @@
         static void Main(string[] args)
         {
             int repetir = 100;
-            int i = 0; //este es un contador
+            int i = 100; //este es un contador
 
-            while (i < repetir)
+            //while
+            //while (i < repetir)
+            //{
+            //    i++;
+            //    Console.WriteLine("Bienvenido  i =" + i);
+            //}
+
+            //do-while
+            do
             {
-                i++;
+                i++; 
                 Console.WriteLine("Bienvenido  i =" + i);
-            }
-            
+
+            } while (i < repetir);
             
             
         }
